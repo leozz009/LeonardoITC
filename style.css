@@ -1,0 +1,192 @@
+.gradient-background {
+    background: linear-gradient(300deg, #222831, #393E46, #423F3E);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .nav-pills .nav-link {
+    color: #fff; /* Color del texto normal */
+    font-weight: bold; /* Negrita */
+    margin-right: 10px; /* Espacio entre enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Efecto de transición al cambiar el color de fondo */
+
+    /* Puedes agregar más estilos según tus preferencias */
+}
+
+.nav-pills .nav-link.active {
+    color: #000; /* Color del texto para el enlace activo */
+    background-color: #fff; /* Color de fondo para el enlace activo */
+}
+
+/* Hover effect para los enlaces */
+.nav-pills .nav-link:hover {
+    background-color: #555; /* Color de fondo al pasar el ratón por encima */
+    color: #fff; /* Cambia el color del texto al pasar el ratón por encima */
+}
+
+.container {
+    background-color: #555;
+}
+
+#title {
+    color: #FEBE10;
+    font-family: 'Koulen', sans-serif;
+    font-size: 110px; /*Estaba en 120*/
+    padding-bottom: 10px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+#main-paragraph{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+#hhobbies {
+    color: #FEBE10;
+    font-family: 'Koulen', sans-serif;
+    font-size: 50px;
+    padding-bottom: 20px; 
+    letter-spacing: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.img-custom {
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+.img-custom:hover {
+    transform: scale(1.1);
+}
+
+
+
+.img-title {
+    font-family: 'Koulen', sans-serif;
+    padding-top: 25px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+.project-title {
+    font-family: 'Koulen', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+.impressive-image {
+    border-radius: 8px; /* Agrega bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+.impressive-image:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el ratón por encima */
+}
+
+.project-paragraph {
+    color: #fff;
+    text-align: justify;
+}
+
+.project-paragraph-bold {
+    color: #fff;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.button-style {
+    border-radius: 50px;
+    box-shadow: 2px 2px black;
+    border: 7px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.contact-paragraph {
+    color: #393E46;
+    font-weight: bold;
+    font-family: 'Koulen', sans-serif;
+}
+
+.logo-image {
+    width: 100%;
+     height: auto;
+    max-height: 450px; /* Altura máxima deseada */
+}
+
+#navegation .nav-paragraph {
+    padding: 10px;
+    color: #FEBE10;
+    font-family: 'Koulen', sans-serif;
+    font-size: 20px; /*Estaba en 120*/
+    padding-bottom: 10px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+#navegation span {
+    color: #222831;
+    font-family: 'Koulen', sans-serif;
+    font-size: 20px; /*Estaba en 120*/
+    padding-bottom: 10px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+#navegation .nav-item {
+    color: #FEBE10;
+    font-family: 'Koulen', sans-serif;
+    font-size: 20px; /*Estaba en 120*/
+    padding-bottom: 10px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+@media screen and (max-width: 442px) {
+   #footer .project-paragraph {
+    font-size: 0px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+    #title {
+        color: #FEBE10;
+        font-family: 'Koulen', sans-serif;
+        font-size: 80px; /*Estaba en 120*/
+        padding-bottom: 10px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+    }  
+ }
+
+ @media screen and (max-width: 420px) {
+    #title {
+        color: #FEBE10;
+        font-family: 'Koulen', sans-serif;
+        font-size: 75px; /*Estaba en 120*/
+        padding-bottom: 10px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+    }  
+ }
